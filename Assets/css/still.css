@@ -1,0 +1,35 @@
+body {
+    /* avoid an excessively wide status text */
+    
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 400px;
+    width: 300px;
+    font-size: 12px;
+}
+a {
+    color: inherit;
+}
+.list-group {
+    margin-bottom: 0px;
+}
+.col-xs-9 {
+    padding-right: 0px;
+    padding-left: 3%;
+    text-align: left;
+}
+.col-xs-3 {
+    padding-right: 0px;
+    padding-left: 3%;
+}
+#waitRequest {
+    position: relative;
+}
+.img-loader {
+    position: absolute;
+    left: 45%;
+}
+.row{
+    text-align: center;
+}
